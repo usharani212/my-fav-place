@@ -1,0 +1,88 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url('Visakhapatnam.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    padding: 5px 0; /* Reduced padding */
+    text-align: center;
+    z-index: 1000;
+    font-size: 0.9em; /* Slightly smaller font size */
+}
+
+header nav button {
+    background-color: white;
+    color: #4a90e2;
+    border: none;
+    padding: 5px 10px; /* Reduced padding */
+    margin: 2px;
+    cursor: pointer;
+    font-size: 0.9em; /* Slightly smaller font size */
+    border-radius: 5px;
+}
+
+header nav button:hover {
+    background-color: #f1f1f1;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 5px 0; /* Reduced padding */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8em; /* Slightly smaller font size */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.scroll-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.scroll-btn:hover {
+    background-color: #357ab7;
+}
